@@ -1,0 +1,28 @@
+
+path(a) = [[question2.Graph@3f3afe78, question2.Graph@7f63425a, question2.Graph@36d64342], [question2.Graph@39ba5a14, question2.Graph@511baa65, question2.Graph@340f438e], [question2.Graph@30c7da1e, question2.Graph@5b464ce8, question2.Graph@57829d67], [question2.Graph@19dfb72a, question2.Graph@17c68925, question2.Graph@7e0ea639], [question2.Graph@3d24753a, question2.Graph@59a6e353, question2.Graph@7a0ac6e3], [question2.Graph@71be98f5, question2.Graph@6fadae5d, question2.Graph@17f6480]]
+ Values of paths from path(a) = [a, b, e]
+
+ Values of paths from path(a) = [a, b, f]
+
+ Values of paths from path(a) = [a, c, g]
+
+ Values of paths from path(a) = [a, c, h]
+
+ Values of paths from path(a) = [a, c, i]
+
+ Values of paths from path(a) = [a, d, j]
+
+path(b) = [[question2.Graph@3796751b, question2.Graph@67b64c45], [question2.Graph@4411d970, question2.Graph@6442b0a6]]
+ Values of paths from path(b) = [b, e]
+
+ Values of paths from path(b) = [b, f]
+
+path(c) = [[question2.Graph@60f82f98, question2.Graph@35f983a6], [question2.Graph@7f690630, question2.Graph@edf4efb], [question2.Graph@2f7a2457, question2.Graph@566776ad]]
+ Values of paths from path(c) = [c, g]
+
+ Values of paths from path(c) = [c, h]
+
+ Values of paths from path(c) = [c, i]
+
+path(d) = [[question2.Graph@6108b2d7, question2.Graph@1554909b]]
+ Values of paths from path(d) = [d, j]
