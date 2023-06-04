@@ -19,7 +19,7 @@ class Edge {
 // This class is used to create a graph
 class Graph implements GNode {
 	String name;
-	
+
 	// intCharMap is a hashmap of integer against character
 	static HashMap<Integer, Character> intCharMap = new HashMap<>();
 	static {
@@ -34,7 +34,7 @@ class Graph implements GNode {
 		intCharMap.put(8, 'i');
 		intCharMap.put(9, 'j');
 	}
-	
+
 	// final result to be returned ArrayList<ArrayList<GNode>>
 	static ArrayList<ArrayList<GNode>> charsList = new ArrayList<ArrayList<GNode>>();
 
@@ -50,7 +50,8 @@ class Graph implements GNode {
 		}
 	}
 
-	Graph() {};
+	Graph() {
+	};
 
 	public List<List<Integer>> getAdjacencyList() {
 		return adjList;
@@ -94,7 +95,8 @@ class Graph implements GNode {
 		return null;
 	}
 
-	// function which accepts a given GNode vertex and returns back the paths traversed till all leaf vertices
+	// function which accepts a given GNode vertex and returns back the paths
+	// traversed till all leaf vertices
 	@SuppressWarnings("rawtypes")
 	@Override
 	public ArrayList paths(GNode vertex) {
@@ -153,9 +155,9 @@ class GraphQuestion2 {
 				new Edge(2, 6), new Edge(2, 7), new Edge(2, 8), new Edge(3, 9));
 
 		int n = 10;
-		
+
 		GNode graph = new Graph(edges, n);
-		
+
 		for (int i = 0; i < n; i++) {
 			GNode vertex = new Graph();
 			vertex.setName(String.valueOf(i));
